@@ -1,6 +1,8 @@
 FROM openjdk:8-jdk-stretch
 
-ENV LC_ALL en_US.UTF-8
+ENV LANG=C
+    LANGUAGE=C
+    LC_ALL=C
 
 RUN useradd -m builder
 
